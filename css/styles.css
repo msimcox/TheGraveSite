@@ -19,3 +19,38 @@ h1,h2,h3,h4,h5,h6 {
     text-rendering: optimizeLegibility;
     font-weight: bold;
 }
+
+            /* NAV */
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.navbar ul li {
+    float: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar .login ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar ul li a {
+    display: block;
+    color: #808080;
+    text-align: center;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: white;
+}
