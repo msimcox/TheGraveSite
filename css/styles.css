@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6 {
     display: block;
     color: #808080;
     text-align: center;
-    padding: 14px 16px 14px 16px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -66,7 +66,7 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
     color: white;
-    padding: 100px 0 0 0;
+    padding: 100px; 0 0 0; /* first ";" is error, but template has it here. adding the ; moved the box down to match template */
     text-align: center;
 }
 
@@ -98,10 +98,10 @@ h1 {
     width: 400px;
     height: 500px;
     margin: 15px 40px;
-    padding: 14px 15px;
+    padding: 15px 15px;
 }
 
-.classes img {
+#classes img {
     width: 100%;
 }
 
@@ -254,7 +254,8 @@ footer ul {
 
 footer ul li {
     float: left;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif;  my line */
+    font-family: ''Raleway, sans-serif; /* line for accuracy in making my Grave Site match template  */
 }
 
 footer ul li a,
