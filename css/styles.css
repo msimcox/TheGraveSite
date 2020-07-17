@@ -96,6 +96,15 @@ hr {
     /* margin-top: -10px; */
 }
 
+#hero-blog {
+    background-image: url("../img/letters_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 325px;
+    /* margin-top: -10px; */
+}
+
 h1 {
     color: white;
     padding: 100px; 0 0 0; /* first ";" is error, but template has it here. adding the ; moved the box down to match template */
@@ -286,6 +295,46 @@ h1 {
 .team_members p {
     display: inline-block;
     width: 460px;
+}
+
+/* BLOG */
+#hikeContent {
+    border: 2px solid black;
+    margin: 30px 0 80px 0;
+    padding-bottom: 42px;
+}
+
+#hikeContent img {
+    float: left;
+    display: inline-block;
+    margin: 8px 20px 8px 8px;
+}
+
+#hikeText {
+    padding: 0 0 0 20px;
+}
+
+#hikeText h4 {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 15px;
+}
+
+#hikeText h6 {
+    font-size: 18px;
+    font-weight: 300;
+    display: inline;
+    padding: 20px;
+}
+
+#blogHr {
+    width: 99%;
+    height: 10px;
+}
+
+#hikeText p {
+    font-size: 14px;
+    width: 99%;
 }
 
             /* CLASSES */
