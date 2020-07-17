@@ -124,10 +124,20 @@ h1 {
 #pgtitle {
     width: 960px;
     margin: auto;
-    margin-top: 20px;
 }
 
 #pgtitle h2 {
+    font-size: 26px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#contactpgtitle {
+    width: 960px;
+    margin: auto;
+}
+
+#contactpgtitle h2{
     font-size: 26px;
     text-align: center;
     font-weight: 300;
@@ -153,6 +163,8 @@ h1 {
     font-size: 22px;
     font-weight: 300;
 }
+
+            /* CONTACT US FORM */
 
 .contact h5 {
     font-size: 26px;
@@ -183,6 +195,23 @@ h1 {
 #topForm {
     padding: 0 150px;
 }
+
+/* PLACEHOLDER TEXT */
+    #topForm input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black !important;
+    opacity: 1 !important; /* Firefox */
+    text-align: center;
+    }
+    
+    #topForm input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;;
+    text-align: center;
+    }
+    
+    #topForm input::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+    text-align: center;
+    }
 
 #forml {
     float: left;
